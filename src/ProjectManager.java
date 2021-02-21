@@ -6,6 +6,4 @@ public class ProjectManager extends Employee{
         setIncomePerHour(incomePerHour);
         setPosition("ProjectManager");
     }
-
-
 }

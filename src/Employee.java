@@ -1,7 +1,7 @@
 public class Employee {
 
 
-    //fields
+    //all fieds are exactly like in the table 'projects' in postgre
     private int id;
     private String name;
     private String surname;
@@ -9,7 +9,7 @@ public class Employee {
     private int incomePerHour;
 
 
-    //Constructor
+    //Constructor (not used in the Main class)
     public Employee(){}
     public Employee(int id, String name, String surname, String position, int incomePerHour) {
         this.id = id;
@@ -51,21 +51,4 @@ public class Employee {
     public void setPosition(String position) {
         this.position = position;
     }
-
-//    public int getAge() {
-//        return age;
-//    }
-//
-//    public void setAge(int age) {
-//        this.age = age;
-//    }
-//
-//    public String getGender() {
-//        return gender;
-//    }
-//
-//    public void setGender(String gender) {
-//        this.gender = gender;
-//    }
-    ////
 }
