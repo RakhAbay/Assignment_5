@@ -22,7 +22,7 @@ public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Scanner sc = new Scanner(System.in);
 
-
+        // sjdkhsjhshfksdjhfjksdhfkjsdhfsjdk
         System.out.println("Welcome to an employee-gathering-to-a-project(also calculating total cost) app!");
 
         System.out.println("Project's name:"); //setting name of the project
